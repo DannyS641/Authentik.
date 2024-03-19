@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.faqSection {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background: #262525;
+}
+
+.content {
+  margin-bottom: 30px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background: #3f3f3f;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #f4ff5d;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 70%;
+    color: #c9d24a;
+    text-align: justify;
+}
+
+@media(max-width: 768px) {
+  .faqSection {
+    padding: 10px;
+  }
+}
+
+@media(max-width: 470px) {
+    .content{
+        display: grid;
+    }
+    p{
+        padding: 10px;
+        margin-left: 20px;
+    }
+}
+  

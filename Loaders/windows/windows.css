@@ -1,0 +1,67 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .spinner {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: spin 1.5s linear infinite;
+  }
+
+  .bubble {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #007bff;
+    animation: bubble-scale 1.5s ease-in-out infinite;
+  }
+
+  .bubble:nth-child(1) {
+    top: 0;
+    left: 40%;
+  }
+
+  .bubble:nth-child(2) {
+    top: 20%;
+    left: 80%;
+  }
+
+  .bubble:nth-child(3) {
+    top: 60%;
+    left: 80%;
+  }
+
+  .bubble:nth-child(4) {
+    top: 80%;
+    left: 40%;
+  }
+
+  .bubble:nth-child(5) {
+    top: 60%;
+    left: 0;
+  }
+
+  .bubble:nth-child(6) {
+    top: 20%;
+    left: 0;
+  }
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* @keyframes bubble-scale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  } */
