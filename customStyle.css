@@ -236,6 +236,6 @@ footer {
 
 @media (max-width: 431px) {
   .home-container {
-    min-height: 80vh;
+    min-height: 100vh;
   }
 }
