@@ -112,6 +112,7 @@ section {
   height: 50px;
   font-size: 12px;
   border: none;
+  border-radius: 0;
   background: #f79327;
   text-transform: uppercase;
 }
