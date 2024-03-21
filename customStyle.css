@@ -164,8 +164,11 @@ section {
 .newsletter .row .form,
 .newsletter .row .col-lg-4 form {
   background: #562d2d;
-  color: #ecebea;
+  color: #f79327;
   max-width: 500px;
+}
+.newsletter .row .col-lg-4 form a{
+  color: #ecebea;
 }
 .newsletter .row .form {
   height: 600px;
